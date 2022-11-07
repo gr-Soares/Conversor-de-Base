@@ -322,7 +322,14 @@ void octalParaBinario(){
     cout << "Insira o Valor: ";
     cin >> valor;
 }
-void octalParaHexa();
+void octalParaHexa(){
+    limparTela();
+    cin.clear();
+    cin.sync();
+    int valor;
+    cout << "Insira o Valor: ";
+    cin >> valor;
+}
 
 void hexaParaDecimal(){
     limparTela();
